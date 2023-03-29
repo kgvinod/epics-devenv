@@ -10,7 +10,7 @@ make -sj
 
 # Download and install synApps
 cd ..
-wget https://www.aps.anl.gov/epics/download/modules/synApps/synApps_6_1.tar.gz -O synApps.tar.gz
+wget https://epics.anl.gov/bcda/synApps/tar/synApps_6_1.tar.gz -O synApps.tar.gz
 tar -xzf synApps.tar.gz
 rm synApps.tar.gz
 mv synApps-6-1 synApps
